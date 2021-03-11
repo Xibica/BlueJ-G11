@@ -9,6 +9,7 @@ public class DeboraEliane
     }
     
     public int getSemestre(){
-        return semestre;
+        int getSemestre = semestre;
+        return getSemestre;
     }
 }
