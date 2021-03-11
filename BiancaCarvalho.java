@@ -1,13 +1,14 @@
 public class BiancaCarvalho
 {
-    String nome, sobrenome;
-    int semestre;
+    String nome = "Bianca", sobrenome = "Carvalho";
+    int semestre = 2;
     
-    void nomeCompleto () {
-        
+    public String nomeCompleto () {
+        String nomeCompleto = this.nome + " " + this.sobrenome;
+        return nomeCompleto;
     }
     
-    void getSemestre() {
-        
+    int getSemestre() {
+        return this.semestre;
     }
 }
