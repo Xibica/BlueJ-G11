@@ -1,6 +1,7 @@
 public class BiancaCarvalho
 {
-    String nome = "Bianca", sobrenome = "Carvalho";
+    String nome = "Bianca";
+    String sobrenome = "Carvalho";
     int semestre = 2;
     
     public String nomeCompleto () {
