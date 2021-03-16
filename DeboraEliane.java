@@ -1,15 +1,14 @@
 public class DeboraEliane
 {
-    int semestre;
-    String nome, sobrenome;
-
-    public String nomeCompleto(){
-       String nomeCompleto = nome+" "+sobrenome;
-       return nomeCompleto;
+    String nome,sobrenome;
+    int semestre = 2 ;
+    
+    public String nomeCompleto () {
+        String nomeCompleto = this.nome + " " + this.sobrenome;
+        return nomeCompleto;
     }
     
-    public int getSemestre(){
-        int getSemestre = semestre;
-        return getSemestre;
+    int getSemestre() {
+        return this.semestre;
     }
 }
