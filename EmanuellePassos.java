@@ -5,7 +5,7 @@ public class EmanuellePassos
    int semestre;
    
    String nomeCompleto() {
-       String nomeCompleto = nome + " " + sobrenome;
+       String nomeCompleto = this.nome + " " + this.sobrenome;
        return nomeCompleto;
    }
    int getSemestre() {
